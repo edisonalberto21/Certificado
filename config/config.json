@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "certificados-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/certificados/CertificadosWebPart.js",
+          "manifest": "./src/webparts/certificados/CertificadosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CertificadosWebPartStrings": "lib/webparts/certificados/loc/{locale}.js"
+  }
+}
